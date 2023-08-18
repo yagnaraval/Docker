@@ -1,0 +1,11 @@
+#I will Show you how to change the ip of RedHat 7.6 System using Linux Commands.
+
+ip a #It will show all the connections
+
+nmtui edit <con_name>
+
+#A Connection editor will open and you can change the the ip address from their
+
+#After Changing the ip-address click on <OK>
+
+systemctl restart network   #Now the connection is restarted with the new IP.
